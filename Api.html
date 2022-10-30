@@ -20,7 +20,8 @@
             
         };
 
-     navigator.geolocation.getCurrentPosition(successCallback, erroCallback);   
+     navigator.geolocation.getCurrentPosition(successCallback, erroCallback,
+     {enableHighAccuracy: true});   
     </script>
 </body>
 </html>
